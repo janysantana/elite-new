@@ -15,6 +15,7 @@ ul {
 
 #fullpage {
     height: 100vh;
+    overflow: hidden;
 }
 
 #fullpage section {
@@ -22,8 +23,13 @@ ul {
 }
 
 #fullpage section:nth-child(1) {
-    background-color: #E42639;
+    background-image: url(/media/images/7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
+
 
 #fullpage section:nth-child(2) {
     background-color: #4E4CFF;
