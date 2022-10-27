@@ -34,3 +34,60 @@ ul {
 #fullpage section:nth-child(2) {
     background-color: #4E4CFF;
 }
+
+.navbar {
+    padding: 25px 50px;
+}
+
+.text {
+    position: absolute;
+    left: 32%;
+    top: 50%;
+    color: white;
+}
+
+h1, .nav-item {
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: white;
+}
+
+button {
+    position: absolute;
+    left: 45%;
+    top: 65%;
+}
+
+.heading, .secondary-heading {
+    justify-content: center;
+    display: flex;
+}
+
+
+.arrow-down {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+
+}
+
+@media (max-width: 1150px)
+.table {
+    display: table;
+}
+
+.table, .table-row, .table-cell {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.table {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
